@@ -1,0 +1,10 @@
+flowchart LR
+    n0["Admit move"]
+    n1["Quiesce and drain"]
+    n2["Apply target"]
+    n3["Reconcile and release"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    classDef stage fill:#f5f7fa,stroke:#536579,color:#17212b;
+    class n0,n1,n2,n3 stage;

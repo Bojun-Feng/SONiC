@@ -1,0 +1,8 @@
+flowchart LR
+    n0["Drain blocked"]
+    n1["Restore old state"]
+    n2["Release and report"]
+    n0 --> n1
+    n1 --> n2
+    classDef stage fill:#f5f7fa,stroke:#536579,color:#17212b;
+    class n0,n1,n2 stage;
